@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kasa-logo {
+  width: 210px;
+  height: 68px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+}
+
+.kasa-nav-link {
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.kasa-nav-link:link,
+.kasa-nav-link:visited,
+.kasa-nav-link:active {
+  color: inherit;
+}
+
+.kasa-nav-link-active {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+/*# sourceMappingURL=header.css.map */
