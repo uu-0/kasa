@@ -1,6 +1,6 @@
-import logo from '../../assets/kasa-logo-white.svg'
+import logo from '../assets/kasa-logo-white.svg'
 
-import '../../styles/css/footer.css'; 
+import '../styles/css/footer.css'; 
 
 function Footer() {
     return (

@@ -4,4 +4,20 @@ body {
   margin-top: 50px;
   margin-left: 80px;
   margin-right: 80px;
+  display: flex;
+  flex-direction: column;
 }
+
+::-webkit-scrollbar {
+  width: 0.5px;
+  height: 0.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+

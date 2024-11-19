@@ -1,13 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Banner from '../components/Banner';
+import LogementBloc from '../components/LogementBloc';
 
-import Banner from '../components/Banner'
 
-import '../styles/css/accueil.css'
+import '../styles/css/accueil.css';
 
 function Accueil() {
     return (
-        <Banner />
-    )
+        <React.Fragment>
+            <Banner />
+            <LogementBloc />
+        </React.Fragment>
+       
+    );
 }
 
-export default Accueil
+export default Accueil;

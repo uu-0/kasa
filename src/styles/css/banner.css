@@ -7,6 +7,7 @@
   background-position: center;
   background-size: cover;
   z-index: -1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .kasa-accueil-bloc-filter {
@@ -34,14 +35,17 @@
   top: 0;
   left: 0;
   color: transparent;
-  -webkit-text-stroke: 4px #000000;
+  -webkit-text-stroke: 3px #000000;
   z-index: 1;
+  cursor: default;
 }
 
 .text-container .fill {
   position: relative;
   color: #FFFFFF;
   z-index: 2;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  cursor: default;
 }
 
 /*# sourceMappingURL=banner.css.map */
