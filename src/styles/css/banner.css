@@ -1,0 +1,47 @@
+.kasa-accueil-bloc {
+  position: absolute;
+  width: 1340px;
+  height: 223px;
+  border-radius: 20px;
+  background-image: url("../../assets/kasa-accueil-bloc.png");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.kasa-accueil-bloc-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 1340px;
+  height: 223px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+  position: relative;
+  display: inline-block;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.text-container .outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: transparent;
+  -webkit-text-stroke: 4px #000000;
+  z-index: 1;
+}
+
+.text-container .fill {
+  position: relative;
+  color: #FFFFFF;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=banner.css.map */
