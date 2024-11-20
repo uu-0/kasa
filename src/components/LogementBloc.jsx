@@ -11,10 +11,10 @@ function LogementBloc() {
     const firstSixAnnounces = annonces.slice(0, 6);
 
     return (
-        <div className="logements-grid" key={annonces.id}>
+        <div className="logements-grid" >
                 {firstSixAnnounces.map((annonce) => (
                     <Card
-                        key={annonce.key}
+                        key={annonce.id}
                         id={annonce.id}
                         title={annonce.title}
                     />
@@ -23,10 +23,5 @@ function LogementBloc() {
     )
 }
 
-LogementBloc.propTypes = {
-    key: PropTypes.number.isRequired,
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-}
 
 export default LogementBloc;

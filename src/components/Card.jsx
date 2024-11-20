@@ -13,9 +13,4 @@ function Card({ id, title }) {
     );
 }
 
-Card.propTypes = {
-    id: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired,
-}
-
 export default Card;
