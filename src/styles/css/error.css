@@ -1,0 +1,31 @@
+.error-bloc {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-bloc h1, h2 {
+  color: #FF6060;
+}
+
+.error-bloc h1 {
+  font-size: 288px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.error-bloc h2 {
+  font-size: 36px;
+}
+
+.error-link {
+  color: #000000;
+}
+
+.error-link:visited {
+  color: inherit;
+}
+
+/*# sourceMappingURL=error.css.map */
