@@ -1,0 +1,12 @@
+.rating-bloc {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.star {
+  width: 25px;
+  height: 25px;
+}
+
+/*# sourceMappingURL=rating.css.map */
