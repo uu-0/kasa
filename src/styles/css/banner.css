@@ -47,4 +47,29 @@
   cursor: default;
 }
 
+@media screen and (max-width: 431px) and (max-height: 933px) {
+  .kasa-accueil-bloc {
+    width: 370px;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  .kasa-accueil-bloc-filter {
+    width: 370px;
+    height: 110px;
+    border-radius: 15px;
+  }
+  .text-container {
+    left: -40px;
+    font-size: 24px;
+    width: 230px;
+  }
+  .text-container .outline {
+    -webkit-text-stroke: transparent;
+  }
+  .text-container .fill {
+    text-shadow: none;
+  }
+}
+
 /*# sourceMappingURL=banner.css.map */
