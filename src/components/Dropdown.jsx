@@ -1,15 +1,15 @@
-import React, { useState } from 'react'
-import '../styles/css/dropdown.css'
+import React, { useState } from 'react';
+import '../styles/css/dropdown.css';
 
-function Dropdown({ title, description }) {
-  const [isOpen, setIsOpen] = useState(false)
+function Dropdown({ title, description, width }) {
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
-    setIsOpen((prevState) => !prevState)
-  }
+    setIsOpen((prevState) => !prevState);
+  };
 
   return (
-    <div className="dropdown-menu">
+    <div className="dropdown-menu" style={{ width }}>
       <button className="dropdown-title" onClick={toggleDropdown}>
         {title}
         <span className={`dropdown-arrow ${isOpen ? 'open' : ''}`}></span>
@@ -18,7 +18,7 @@ function Dropdown({ title, description }) {
         <p>{description}</p>
       </div>
     </div>
-  )
+  );
 }
 
-export default Dropdown
+export default Dropdown;

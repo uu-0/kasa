@@ -1,6 +1,5 @@
 .dropdown-bloc {
   margin-top: 50px;
-  margin-bottom: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,7 +7,6 @@
 
 .dropdown-menu {
   margin: 1rem 0;
-  width: 1023px;
   border-radius: 5px;
   font-family: Arial, sans-serif;
   overflow: hidden;
