@@ -1,14 +1,17 @@
 import React from 'react';
 
-import BannerAPropos from "../components/BannerAPropos"
+import Banner from "../components/Banner"
 import Dropdown from '../components/Dropdown';
 
-import '../styles/css/dropdown.css'
+import KasaBg from '../assets/kasa-a-propos.png'
 
 function APropos() {
     return (
         <React.Fragment>
-            <BannerAPropos />
+            <Banner 
+                backgroundImage={KasaBg}
+                showText={false} 
+            />
             <div className='dropdown-bloc'>
                 <Dropdown 
                     title="Fiabilité" 

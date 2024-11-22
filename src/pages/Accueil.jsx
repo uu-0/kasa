@@ -2,13 +2,18 @@ import React from 'react';
 import Banner from '../components/Banner';
 import LogementBloc from '../components/LogementBloc';
 
+import KasaBg from '../assets/kasa-accueil.png'
+
 
 import '../styles/css/accueil.css';
 
 function Accueil() {
     return (
         <React.Fragment>
-            <Banner />
+            <Banner 
+                backgroundImage={KasaBg}
+                showText={true} 
+            />
             <LogementBloc />
         </React.Fragment>
        
