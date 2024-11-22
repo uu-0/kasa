@@ -5,7 +5,7 @@ import Header from './Header';
 import Accueil from '../pages/Accueil';
 import Logement from '../pages/Logement';
 import APropos from '../pages/APropos';
-import Error from './Error';
+import Error from '../pages/Error';
 import Footer from './Footer';
 
 import '../styles/css/App.css';
