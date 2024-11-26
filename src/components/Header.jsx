@@ -9,7 +9,7 @@ function Header() {
             <nav>
                 <NavLink
                     className={({ isActive }) => isActive ? "kasa-nav-link kasa-nav-link-active" : "kasa-nav-link"}
-                    to="/accueil"
+                    to="/"
                 >
                     Accueil
                 </NavLink>
