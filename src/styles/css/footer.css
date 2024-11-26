@@ -17,4 +17,16 @@ footer {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 431px) and (max-height: 933px) {
+  footer {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  footer p {
+    text-align: center;
+    font-size: 12px;
+    width: 100px;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */

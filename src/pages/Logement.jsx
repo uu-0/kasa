@@ -9,6 +9,7 @@ import Tags from '../components/Tags'
 import annonces from '../data/annonces.json'
 
 import '../styles/css/logement.css'
+import '../styles/css/dropdown.css'
 
 
 function Logement() {
@@ -41,16 +42,16 @@ function Logement() {
             </div>
             <div className='logement-dropdown-bloc'>
                 <Dropdown 
+                        className="dropdown-menu-logement"
                         title="Description" 
                         description={annonce.description}
-                        width="582px"
                 />
                 <Dropdown 
+                        className="dropdown-menu-logement"
                         title="Équipements" 
                         description={annonce.equipments.map((equipment, index) => (
                             <p key={index}>{equipment}</p>
                         ))}
-                        width="582px"
                 />
             </div>
         </React.Fragment>

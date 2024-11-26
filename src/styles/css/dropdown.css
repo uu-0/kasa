@@ -1,11 +1,21 @@
 .dropdown-bloc {
   margin-top: 50px;
+  margin-bottom: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.dropdown-menu {
+.dropdown-menu-a-propos {
+  width: 1023px;
+  margin: 1rem 0;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+.dropdown-menu-logement {
+  width: 582px;
   margin: 1rem 0;
   border-radius: 5px;
   font-family: Arial, sans-serif;
@@ -53,7 +63,7 @@
   transition: max-height 0.1s ease;
 }
 
-.dropdown-content p {
+.dropdown-content div {
   margin: 0;
   font-family: "Montserrat", sans-serif;
 }
@@ -61,6 +71,23 @@
 .dropdown-content.open {
   max-height: 150px;
   padding: 1rem;
+}
+
+@media screen and (max-width: 431px) and (max-height: 933px) {
+  .dropdown-menu-a-propos {
+    width: 390px;
+    margin: 10px;
+  }
+  .dropdown-menu-logement {
+    width: 355px;
+    margin: 1rem 0;
+  }
+  .dropdown-title {
+    font-size: 13px;
+  }
+  .dropdown-content div {
+    font-size: 13px;
+  }
 }
 
 /*# sourceMappingURL=dropdown.css.map */

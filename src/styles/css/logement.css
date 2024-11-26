@@ -47,4 +47,36 @@
   width: 1340px;
 }
 
+@media screen and (max-width: 431px) and (max-height: 933px) {
+  .logement-information-bloc {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+  }
+  .logement-information-bloc-left h1 {
+    font-size: 18px;
+  }
+  .logement-information-bloc-left h2 {
+    font-size: 14px;
+  }
+  .logement-information-bloc-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logement-information-host {
+    order: 2;
+  }
+  .logement-information-bloc-right p {
+    font-size: 12px;
+  }
+  .host-img {
+    width: 32px;
+    height: 32px;
+  }
+  .logement-dropdown-bloc {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=logement.css.map */

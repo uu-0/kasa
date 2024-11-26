@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/css/dropdown.css';
 
-function Dropdown({ title, description, width }) {
+function Dropdown({ className, title, description }) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -9,13 +9,13 @@ function Dropdown({ title, description, width }) {
   };
 
   return (
-    <div className="dropdown-menu" style={{ width }}>
+    <div className={className}>
       <button className="dropdown-title" onClick={toggleDropdown}>
         {title}
         <span className={`dropdown-arrow ${isOpen ? 'open' : ''}`}></span>
       </button>
       <div className={`dropdown-content ${isOpen ? 'open' : ''}`}>
-        <p>{description}</p>
+        <div>{description}</div>
       </div>
     </div>
   );
