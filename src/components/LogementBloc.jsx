@@ -16,6 +16,7 @@ function LogementBloc() {
                         key={annonce.id}
                         id={annonce.id}
                         title={annonce.title}
+                        cover={annonce.cover}
                     />
                 ))}
 	</div> 

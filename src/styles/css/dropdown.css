@@ -69,7 +69,7 @@
 }
 
 .dropdown-content.open {
-  max-height: 150px;
+  max-height: fit-content;
   padding: 1rem;
 }
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import { Navigate } from 'react-router-dom'
+
 
 import Carousel from '../components/Carrousel'
 import Dropdown from '../components/Dropdown'
@@ -20,7 +22,7 @@ function Logement() {
     const annonce = annonces.find((annonce) => annonce.id === id);
 
     if (!annonce) {
-        return <h1>Logement non trouvé</h1>;
+        return <Navigate to="*" />
     }
 
     return (
