@@ -1,0 +1,59 @@
+@import 'resources';
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.kasa-logo{
+    width: 210px;
+    height: 68px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: $kasa-black;
+}
+
+.kasa-nav-link{
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  color: $kasa-black;
+  text-decoration: none;
+}
+
+.kasa-nav-link:link,
+.kasa-nav-link:visited, 
+.kasa-nav-link:active{
+  color: inherit;
+}
+
+.kasa-nav-link-active{
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px; 
+}
+
+@media screen and (max-width: 431px) and (max-height: 933px) {
+  header{
+    gap: 20px;
+  }
+
+  .kasa-logo{
+    width: 280px;
+    height: 100px;
+  }
+
+  nav{
+    margin-left: 50px;
+  }
+
+  .kasa-nav-link{
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+}

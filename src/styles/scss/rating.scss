@@ -1,0 +1,21 @@
+.rating-bloc {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.star {
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 431px) and (max-height: 933px) {
+    .rating-bloc {
+        gap: 5px;
+    }
+    
+    .star {
+        width: 15px;
+        height: 15px;
+    }
+}
