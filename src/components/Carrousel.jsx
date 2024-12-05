@@ -5,7 +5,6 @@ import '../styles/css/carrousel.css'
 
 
 function Carousel({ pictures }) {
-    //état pour suivre l'index de l'image affichée
     const [currentIndex, setCurrentIndex] = useState(0)
 
     const totalPictures = pictures.length
@@ -24,13 +23,17 @@ function Carousel({ pictures }) {
     return (
         <div className="carousel">
             <img src={pictures[currentIndex]} alt="Carousel" className="carousel-image" />
-            <p className='carousel-counter-pictures'>
-                {currentIndex+1}/{totalPictures}
-            </p>
-            <button onClick={prevImage} className="carousel-button prev-button">
-            </button>
-            <button onClick={nextImage} className="carousel-button next-button">  
-            </button>
+            {totalPictures > 1 && (
+            <>
+                <p className="carousel-counter-pictures">
+                    {currentIndex + 1}/{totalPictures}
+                </p>
+                <button onClick={prevImage} className="carousel-button prev-button">
+                </button>
+                <button onClick={nextImage} className="carousel-button next-button">  
+                </button>
+            </>
+        )}
         </div>
     )
 }

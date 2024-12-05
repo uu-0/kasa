@@ -15,10 +15,8 @@ import '../styles/css/dropdown.css'
 
 
 function Logement() {
-    //récupère l'id depuis les paramètres d'URL
     const { id } = useParams();
 
-    //cherche l'annonce correspondant à l'ID
     const annonce = annonces.find((annonce) => annonce.id === id);
 
     if (!annonce) {

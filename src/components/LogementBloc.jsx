@@ -7,11 +7,10 @@ import annonces from '../data/annonces.json'
 import '../styles/css/logementCards.css';
 
 function LogementBloc() {
-    const firstSixAnnounces = annonces.slice(0, 6);
 
     return (
         <div className="logements-grid" >
-                {firstSixAnnounces.map((annonce) => (
+                {annonces.map((annonce) => (
                     <Card
                         key={annonce.id}
                         id={annonce.id}
