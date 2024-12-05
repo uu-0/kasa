@@ -5,8 +5,6 @@ import LogementBloc from '../components/LogementBloc';
 import KasaBg from '../assets/kasa-accueil.png'
 
 
-import '../styles/css/accueil.css';
-
 function Accueil() {
     return (
         <React.Fragment>

@@ -28,6 +28,17 @@
   color: inherit;
 }
 
+@media screen and (max-width: 768px) {
+  .error-bloc h1 {
+    font-size: 200px;
+    margin-bottom: 50px;
+  }
+  .error-bloc h2 {
+    font-size: 24px;
+  }
+}
+
+
 @media screen and (max-width: 431px) and (max-height: 933px) {
   .error-bloc h1 {
     font-size: 96px;

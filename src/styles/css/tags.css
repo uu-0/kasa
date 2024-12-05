@@ -15,6 +15,13 @@
   font-weight: 600;
 }
 
+@media screen and (max-width: 768px) {
+  .tag {
+    font-size: 12px;
+  }
+}
+
+
 @media screen and (max-width: 431px) and (max-height: 933px) {
   .tag {
     padding: 5px;

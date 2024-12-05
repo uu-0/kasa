@@ -47,6 +47,19 @@
   width: 1340px;
 }
 
+@media screen and (max-width: 768px) {
+  .logement-information-bloc {
+    width: 320px;
+  }
+  .logement-information-bloc-left h1 {
+    font-size: 28px;
+  }
+  .logement-information-bloc-left h2 {
+    font-size: 16px;
+  }
+}
+
+
 @media screen and (max-width: 431px) and (max-height: 933px) {
   .logement-information-bloc {
     display: flex;

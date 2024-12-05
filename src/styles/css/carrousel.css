@@ -48,6 +48,22 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+@media screen and (max-width: 768px) {
+  .carousel {
+    width: 720px;
+    height: 320px;
+  }
+  .carousel-image {
+    border-radius: 15px;
+  }
+  .carousel-button {
+    width: 50px;
+    height: 50px;
+    background-size: 90%;
+  }
+}
+
+
 @media screen and (max-width: 431px) and (max-height: 933px) {
   .carousel {
     width: 355px;
