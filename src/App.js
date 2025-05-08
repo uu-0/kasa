@@ -12,7 +12,7 @@ import './styles/css/App.css';
 
 function App() {
   return (
-    <Router> 
+    <Router basename="/kasa"> 
       <Header />
       <Routes>
         <Route path="/" element={<Accueil />} />
